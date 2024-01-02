@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.three-bars-container{
+    display: none;
+}
+@media screen and (max-width: 992px){
+
+}
+.img-logo{
+    width: 300px;
+    position: absolute;
+    top: 20px;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    padding: 0px 10px; 
+    position: relative;
+    top: 0px;
+    justify-content: space-between;
+    background-color:#fdf7e4;
+
+}
+nav p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: #000000;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+.scrolling-text{
+    color: red;
+}
+.first-part{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color:#fdf7e4;
+}
+.middle-part{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+
+}
+.student-image{
+    width: 450px;
+    height: 300px;
+    
+}
+.some-image{
+    width: 450px;
+    margin: 20px;
+}
+
+.some-content{
+    width: 450px;
+    height: 300px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.some-form{
+    width: 300px;
+    margin: 20px;
+    float: right;
+}
+.login-form{
+    font-size: 22px;
+}
+.some-para{
+    color: #000000;
+    font-size: 16px;
+}
+.some-para2{
+    color: #000000;
+    font-size: 16px;
+    justify-content: end;
+}
+.para-password{
+    color: blue;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+.reg-ele{
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color:green;
+    border-color: green;
+    border-radius: 10px;
+    align-self: center;
+    width: 100%;
+    align-content: center;
+}
+.button-element{
+    padding: 10px;
+}
+/* Existing CSS code remains unchanged */
+
+@media screen and (max-width: 992px) {
+    .img-logo {
+        width: 200px; /* Adjust the logo size for smaller screens */
+    }
+
+    nav {
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav p {
+        float: none;
+        display: inline-block;
+        margin: 0;
+    }
+
+    nav ul {
+        float: none;
+        display: block;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+    }
+
+    nav li a {
+        padding: 10px;
+        display: block;
+    }
+
+    .three-bars-container {
+        display: block; /* Show the three-bars icon for mobile */
+        float: right;
+        cursor: pointer;
+    }
+
+    .first-part {
+        height: auto;
+    }
+
+    .middle-part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .some-image,
+    .some-content,
+    .some-form {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    .student-image {
+        width: 100%; /* Make the image responsive */
+        height: auto;
+    }
+
+    .input-container {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+}
